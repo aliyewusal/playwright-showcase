@@ -3,3 +3,7 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+.idea/
+
+#ignore debug test.spec
+tests/test.spec.ts
