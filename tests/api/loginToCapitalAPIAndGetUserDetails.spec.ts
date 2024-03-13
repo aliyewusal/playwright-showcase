@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 // import { request } from '@playwright/test';
 
-test.describe('Login and User Details API Tests', () => {
+test.describe('@api Login and User Details API Tests', () => {
   let token: string;
 
   test.beforeEach(async ({ page }, testInfo) => {
