@@ -3,7 +3,7 @@ import { PageObjects } from '../pages/managPO';
 
 test.use({ storageState: 'playwright/.auth/user.json' });
 
-test('Adding adding and removing product to cart', async ({
+test('@web Adding adding and removing product to cart', async ({
   page,
   addToCartData,
   removeFromCartData,
